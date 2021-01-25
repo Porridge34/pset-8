@@ -1,14 +1,4 @@
 public class ProblemSet8 {
-    public static void main(String args[]) {
-        ProblemSet8 test = new ProblemSet8();
-        int[] arr1 = {1, 2};
-        int[] arr2 = {1};
-        int[] result = test.sequential(arr1, arr2);
-        for (int i : result) {
-            System.out.println(i);
-        }
-
-    }
     public boolean common(int[] a, int[] b) {
         if (a != null && b != null && a.length != 0 && b.length != 0) {
             if (a[a.length - 1] == b[b.length - 1]) {
